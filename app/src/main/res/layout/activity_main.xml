@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc4vi.vwalf.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/VULup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="VULup" />
+
+        <Button
+            android:id="@+id/VULdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="VULdown" />
+
+
+        <Button
+            android:id="@+id/Channelup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Channelup" />
+
+        <Button
+            android:id="@+id/ChannelDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="ChannelDown" />
+
+        <Button
+            android:id="@+id/Mute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Mute" />
+
+        <Button
+            android:id="@+id/Lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Lock" />
+
+        <Button
+            android:id="@+id/Unlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Unlock" />
+
+        <Button
+            android:id="@+id/FRWindowDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FLWindowDown"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="FRWindowDown" />
+
+        <Button
+            android:id="@+id/FRWindowUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="FRWindowUp" />
+
+        <Button
+            android:id="@+id/FLWindowDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="FLWindowDown" />
+
+        <Button
+            android:id="@+id/FLWindowUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="FLWindowUp" />
+
+        <Button
+            android:id="@+id/RRWindowDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="RRWindowDown" />
+
+        <Button
+            android:id="@+id/RRWindowUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="RRWindowUp" />
+
+        <Button
+            android:id="@+id/RLWindowDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="RLWindowDown" />
+
+        <Button
+            android:id="@+id/RLWindowUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="RLWindowUp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="VWalf"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="BlueTooth Address"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
